@@ -20,6 +20,8 @@
 		75454C6426AC84BE007239FC /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75454C6326AC84BE007239FC /* GameTableViewCell.swift */; };
 		75454C6626AC8FFC007239FC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75454C6526AC8FFC007239FC /* MapViewController.swift */; };
 		75454C6926AC98FD007239FC /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75454C6826AC98FD007239FC /* Map.swift */; };
+		75B0841526BEF87000524F3A /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0841426BEF87000524F3A /* CountriesTableViewController.swift */; };
+		75B0841726BEFE1000524F3A /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B0841626BEFE1000524F3A /* CountryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		75454C6326AC84BE007239FC /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
 		75454C6526AC8FFC007239FC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		75454C6826AC98FD007239FC /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		75B0841426BEF87000524F3A /* CountriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		75B0841626BEFE1000524F3A /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				75454C5826AC5A37007239FC /* WinnersTableViewController.swift */,
 				75454C5B26AC5A5E007239FC /* WorldCupViewController.swift */,
 				75454C6526AC8FFC007239FC /* MapViewController.swift */,
+				75B0841426BEF87000524F3A /* CountriesTableViewController.swift */,
+				75B0841626BEFE1000524F3A /* CountryDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -202,11 +208,13 @@
 				75454C6426AC84BE007239FC /* GameTableViewCell.swift in Sources */,
 				75454C5926AC5A37007239FC /* WinnersTableViewController.swift in Sources */,
 				75454C4126AC56E3007239FC /* AppDelegate.swift in Sources */,
+				75B0841726BEFE1000524F3A /* CountryDetailViewController.swift in Sources */,
 				75454C5F26AC5A99007239FC /* WorldCup.swift in Sources */,
 				75454C6226AC794C007239FC /* WorldCupTableViewCell.swift in Sources */,
 				75454C5C26AC5A5E007239FC /* WorldCupViewController.swift in Sources */,
 				75454C4326AC56E3007239FC /* SceneDelegate.swift in Sources */,
 				75454C6926AC98FD007239FC /* Map.swift in Sources */,
+				75B0841526BEF87000524F3A /* CountriesTableViewController.swift in Sources */,
 				75454C6626AC8FFC007239FC /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

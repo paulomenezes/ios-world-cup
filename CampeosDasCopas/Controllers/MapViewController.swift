@@ -20,14 +20,21 @@ class MapViewController: UIViewController, MKMapViewDelegate, UIActionSheetDeleg
         
         mapView.delegate = self
         
+        loadWorldCups()
+        
         for worldCup in worldCups {
-//            if let data = countriesData[worldCup.country] {
-//                addAnnotation(mapResult: data.0, title: worldCup.country, subtitle: "\(worldCup.year), \(data.1.subtitle!)")
-//                mapView.removeAnnotation(data.1)
-//                zoomAllAnnotations()
-//            } else {
-                requestInfo(worldCup: worldCup)
-//            }
+            requestInfo(worldCup: worldCup)
+        }
+    }
+    
+    func loadWorldCups() {
+        let fileURL = Bundle.main.url(forResource: "winners", withExtension: ".json")!
+        let jsonData = try! Data(contentsOf: fileURL)
+
+        do {
+          worldCups = try JSONDecoder().decode([WorldCup].self, from: jsonData)
+        } catch  {
+          print(error.localizedDescription)
         }
     }
     
